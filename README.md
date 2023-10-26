@@ -1,49 +1,53 @@
+API-Rest-Netcon-dotnet
+A API fornece um serviço simples de conversão de distâncias entre anos-luz e quilômetros. Ela permite que os usuários convertam distâncias de anos-luz para quilômetros e vice-versa usando o método GET.
+
+Recursos
+Swagger: Uma interface interativa para explorar e testar a API.
+
+Acesse em https://localhost:[porta]/swagger.
+Testes Unitários (NUnit)
+
+Parâmetros na URL
+km (float):
+anosLuz (float)
+Exemplo de Uso
+URL de Requisição:
+
+bash
+Copy code
+https://localhost:7119/api/converter?km=2
+Resultado:
+
+{
+  "date": "2023-10-26T14:25:15.8575587-03:00",
+  "statusCode": 200,
+  "errorMessage": null,
+  "value": 2.114e-13
+}
+
+URL de Requisição:
+https://localhost:7119/api/converter?km=0.5
+
+Resultado:
+
+{
+  "date": "2023-10-26T14:27:10.0685161-03:00",
+  "statusCode": 400,
+  "errorMessage": "Valor inválido. O valor não pode ser < 1.",
+  "value": 0
+}
 
 
-# API-Rest-Netcon-dotnet
+Como Compilar e Executar
+Abra o diretório "API Rest Netcon dotnet".
 
-A API fornece um serviço simples de conversão de distâncias entre anos-luz e quilômetros. Ela permite que os usuários convertam distâncias de anos-luz para quilômetros e vice-versa através de um método GET.
+Execute:
 
-## Recursos
+bash
+Copy code
+dotnet run
+Acesse a URL do Swagger:
 
-- **Swagger**: Interface interativa para explorar e testar a API.
-  - Acesse em `https://localhost:[porta]/swagger`.
-
-- **Testes Unitários (NUnit)**
-
-## Parâmetros da URL
-
-- `value` (float): Valor a ser convertido
-- `unit` (string): Unidade de medida da distância
-
-## Exemplo de Uso
-
-- **URL de Requisição**:
-   ```
-   https://localhost:7119/Conversor?value=10&unit=anos-luz
-   ```
-
-- **Resultado**:
-
-   ```json
-   {
-     "date": "2023-10-26T10:29:36",
-     "statusCode": 200,
-     "errorMessage": null,
-     "value": 94610000000000
-   }
-   ```
-
-## Como Compilar e Executar
-
-1. Abra o diretório "API Rest Netcon dotnet".
-
-2. Execute:
-   ```bash
-   dotnet run
-   ```
-
-3. Acesse a URL do Swagger:
-   ```
-   https://localhost:[porta]/swagger
-   ```
+bash
+Copy code
+https://localhost:[porta]/swagger
