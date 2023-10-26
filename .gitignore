@@ -1,0 +1,48 @@
+
+
+# Ignorar a pasta .vs do Visual Studio
+.vs/
+
+# Ignorar outros arquivos e pastas comuns do Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignorar arquivos de compilação e binários
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Ignorar arquivos de pacotes
+# http://stackoverflow.com/questions/11451535/gitignore-for-visual-studio-projects-and-solutions
+*.dll
+*.exe
+*.nupkg
+*.pdb
+*.profileresults
+packages/
+
+# Ignorar arquivos de cache do ReSharper
+*_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Ignorar arquivos de configuração do usuário do Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Ignorar arquivos de configuração do usuário do Visual Studio for Mac
+*.userprefs
+
+# Você pode adicionar mais regras de acordo com as suas necessidades.
+# Você também pode usar uma ferramenta online como gitignore.io para gerar um arquivo .gitignore personalizado.
