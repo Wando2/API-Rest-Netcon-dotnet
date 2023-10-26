@@ -4,8 +4,7 @@ A API fornece um serviço simples de conversão de distâncias entre anos-luz e 
 
 ## Recursos
 
-- **Swagger**: Uma interface interativa para explorar e testar a API.
-  - Acesse em `https://localhost:[porta]/swagger`.
+- **Swagger**:
 - **Testes Unitários (NUnit)**
 
 ## Parâmetros na URL
