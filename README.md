@@ -1,6 +1,3 @@
-Claro, aqui está a documentação no formato README com as informações fornecidas:
-
-```markdown
 # API-Rest-Netcon-dotnet
 
 A API fornece um serviço simples de conversão de distâncias entre anos-luz e quilômetros. Ela permite que os usuários convertam distâncias de anos-luz para quilômetros e vice-versa usando o método GET.
@@ -13,8 +10,8 @@ A API fornece um serviço simples de conversão de distâncias entre anos-luz e 
 
 ## Parâmetros na URL
 
-- `km` (float):
-- `anosLuz` (float)
+- `km` (float): O valor a ser convertido.
+- `anosLuz` (float): O valor a ser convertido.
 
 ## Exemplo de Uso
 
