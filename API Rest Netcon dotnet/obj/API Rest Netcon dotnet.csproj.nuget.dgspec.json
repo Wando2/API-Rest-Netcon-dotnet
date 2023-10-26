@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MegaJ\\source\\repos\\API Rest Netcon dotnet\\API Rest Netcon dotnet\\API Rest Netcon dotnet.csproj": {}
+    "C:\\Users\\MegaJ\\OneDrive\\Documentos\\GitHub\\API-Rest-Netcon-dotnet\\API Rest Netcon dotnet\\API Rest Netcon dotnet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MegaJ\\source\\repos\\API Rest Netcon dotnet\\API Rest Netcon dotnet\\API Rest Netcon dotnet.csproj": {
+    "C:\\Users\\MegaJ\\OneDrive\\Documentos\\GitHub\\API-Rest-Netcon-dotnet\\API Rest Netcon dotnet\\API Rest Netcon dotnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MegaJ\\source\\repos\\API Rest Netcon dotnet\\API Rest Netcon dotnet\\API Rest Netcon dotnet.csproj",
+        "projectUniqueName": "C:\\Users\\MegaJ\\OneDrive\\Documentos\\GitHub\\API-Rest-Netcon-dotnet\\API Rest Netcon dotnet\\API Rest Netcon dotnet.csproj",
         "projectName": "API Rest Netcon dotnet",
-        "projectPath": "C:\\Users\\MegaJ\\source\\repos\\API Rest Netcon dotnet\\API Rest Netcon dotnet\\API Rest Netcon dotnet.csproj",
+        "projectPath": "C:\\Users\\MegaJ\\OneDrive\\Documentos\\GitHub\\API-Rest-Netcon-dotnet\\API Rest Netcon dotnet\\API Rest Netcon dotnet.csproj",
         "packagesPath": "C:\\Users\\MegaJ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MegaJ\\source\\repos\\API Rest Netcon dotnet\\API Rest Netcon dotnet\\obj\\",
+        "outputPath": "C:\\Users\\MegaJ\\OneDrive\\Documentos\\GitHub\\API-Rest-Netcon-dotnet\\API Rest Netcon dotnet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MegaJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
