@@ -1,6 +1,5 @@
-﻿using Microsoft.AspNetCore.Routing;
-using NUnit.Framework;
-using System;
+﻿using NUnit.Framework;
+
 
 namespace API_Rest_Netcon_dotnet.Tests
 {

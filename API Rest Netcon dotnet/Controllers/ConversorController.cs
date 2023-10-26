@@ -4,42 +4,34 @@ using Microsoft.AspNetCore.Mvc;
 namespace API_Rest_Netcon_dotnet.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/converter")]
     public class ConversorController : ControllerBase
     {
-
-
         [HttpGet]
-        public ActionResult<Conversor> Get(float value, string unit)
+        public ActionResult<Conversor> Convert( float? km, float? anosLuz)
         {
-            Conversor conversorData = new Conversor
+            if (km.HasValue)
             {
-              Date = System.DateTime.Now
-            };
+                if (km < 1)
+                {
+                    return CreateBadRequest("Valor inválido. O valor não pode ser < 1.");
+                }
 
-            conversorData.Date = DateTime.Parse(conversorData.Date.ToString("yyyy-MM-dd HH:mm:ss"));
-
-            if (value < 1)
+                return CreateSuccessResponse(km.Value, "km");
+            }
+            else if (anosLuz.HasValue)
             {
-                conversorData.statusCode = 400;
-                conversorData.errorMessage = "Valor inválido. O valor não pode ser < 1.";
-                return conversorData;
+                if (anosLuz < 1)
+                {
+                    return CreateBadRequest("Valor inválido. O valor não pode ser < 1.");
+                }
+
+                return CreateSuccessResponse(anosLuz.Value, "anos-luz");
             }
 
-        
-            float valueConverted = convertValue(value, unit);
-
-            if (valueConverted == -1)
-            {
-                conversorData.statusCode = 400;
-                conversorData.errorMessage = "Unidade inválida. Unidade deve ser 'km' ou 'anos-luz'.";
-                return conversorData;
-            }
-
-            conversorData.value = valueConverted;
-            conversorData.statusCode = 200;
-            return conversorData;
+            return CreateBadRequest("Unidade inválida.");
         }
+
 
         private float convertValue(float value, string unit)
         {
@@ -63,5 +55,36 @@ namespace API_Rest_Netcon_dotnet.Controllers
 
 
         }
+
+        private ActionResult<Conversor> CreateBadRequest(string errorMessage)
+        {
+        
+            return BadRequest(new Conversor
+            {
+                statusCode = 400,
+                errorMessage = errorMessage,
+                Date = DateTime.Now
+            });
+        }
+
+
+        private ActionResult<Conversor> CreateSuccessResponse(float value, string unit)
+        {
+            float convertedValue = convertValue(value, unit);
+
+            return Ok(new Conversor
+            {
+                statusCode = 200,
+                value = convertedValue,
+                Date = DateTime.Now
+            });
+        }
+
+
+
+
     }
+
 }
+
+   
