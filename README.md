@@ -1,4 +1,3 @@
-# API-Rest-Netcon-dotnet
 
 A API fornece um serviço de conversão de distâncias entre anos-luz e quilômetros. Ela permite que os usuários convertam distâncias de anos-luz para quilômetros e vice-versa usando o método GET.
 
