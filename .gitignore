@@ -1,9 +1,5 @@
-
-
-# Ignorar a pasta .vs do Visual Studio
 .vs/
-.ideia/
+.idea/
 .vscode/
-.bin/
-.obj/
-
+**/bin/
+**/obj/
