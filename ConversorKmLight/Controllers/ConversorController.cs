@@ -6,7 +6,7 @@ namespace ConversorKmLight.Controllers;
     [ApiController]
     public class ConversorController : ControllerBase
     {
-        [HttpGet("v1/conversor/{km}/{anosLuz}")]
+        [HttpGet("v1/conversor/{km?}/{anosLuz?}")]
         public ActionResult<Conversor> Convert(float? km, float? anosLuz)
         {
             var units = new Dictionary<string, float?>
