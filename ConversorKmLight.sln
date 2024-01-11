@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API Rest Netcon dotnet", "API Rest Netcon dotnet\API Rest Netcon dotnet.csproj", "{D491C035-5275-488C-8BD0-FD74DDE31311}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversorKmLight", "ConversorKmLight\ConversorKmLight.csproj", "{D491C035-5275-488C-8BD0-FD74DDE31311}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

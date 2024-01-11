@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 
 
-namespace API_Rest_Netcon_dotnet.Tests
+namespace ConversorKmLight.Tests
 {
     public class ConversorTests
     {
@@ -27,10 +27,10 @@ namespace API_Rest_Netcon_dotnet.Tests
             var expectedStatusCode = 200;
 
             
-            conversor.statusCode = expectedStatusCode;
+            conversor.StatusCode = expectedStatusCode;
 
             
-            Assert.AreEqual(expectedStatusCode, conversor.statusCode);
+            Assert.AreEqual(expectedStatusCode, conversor.StatusCode);
         }
 
         [Test]
@@ -41,10 +41,10 @@ namespace API_Rest_Netcon_dotnet.Tests
             var expectedErrorMessage = "Error message";
 
            
-            conversor.errorMessage = expectedErrorMessage;
+            conversor.ErrorMessage = expectedErrorMessage;
 
             
-            Assert.AreEqual(expectedErrorMessage, conversor.errorMessage);
+            Assert.AreEqual(expectedErrorMessage, conversor.ErrorMessage);
         }
 
         [Test]
@@ -55,10 +55,10 @@ namespace API_Rest_Netcon_dotnet.Tests
             var expectedValue = 10.5f;
 
        
-            conversor.value = expectedValue;
+            conversor.Value = expectedValue;
 
           
-            Assert.AreEqual(expectedValue, conversor.value);
+            Assert.AreEqual(expectedValue, conversor.Value);
         }
     }
 }

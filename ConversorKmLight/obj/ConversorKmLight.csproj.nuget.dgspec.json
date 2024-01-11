@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MegaJ\\source\\repos\\API Rest Netcon dotnet\\API Rest Netcon dotnet\\API Rest Netcon dotnet.csproj": {}
+    "C:\\Users\\MegaJ\\OneDrive\\Documentos\\GitHub\\Km-To-Light-year-API\\ConversorKmLight\\ConversorKmLight.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MegaJ\\source\\repos\\API Rest Netcon dotnet\\API Rest Netcon dotnet\\API Rest Netcon dotnet.csproj": {
+    "C:\\Users\\MegaJ\\OneDrive\\Documentos\\GitHub\\Km-To-Light-year-API\\ConversorKmLight\\ConversorKmLight.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MegaJ\\source\\repos\\API Rest Netcon dotnet\\API Rest Netcon dotnet\\API Rest Netcon dotnet.csproj",
-        "projectName": "API Rest Netcon dotnet",
-        "projectPath": "C:\\Users\\MegaJ\\source\\repos\\API Rest Netcon dotnet\\API Rest Netcon dotnet\\API Rest Netcon dotnet.csproj",
+        "projectUniqueName": "C:\\Users\\MegaJ\\OneDrive\\Documentos\\GitHub\\Km-To-Light-year-API\\ConversorKmLight\\ConversorKmLight.csproj",
+        "projectName": "ConversorKmLight",
+        "projectPath": "C:\\Users\\MegaJ\\OneDrive\\Documentos\\GitHub\\Km-To-Light-year-API\\ConversorKmLight\\ConversorKmLight.csproj",
         "packagesPath": "C:\\Users\\MegaJ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MegaJ\\source\\repos\\API Rest Netcon dotnet\\API Rest Netcon dotnet\\obj\\",
+        "outputPath": "C:\\Users\\MegaJ\\OneDrive\\Documentos\\GitHub\\Km-To-Light-year-API\\ConversorKmLight\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MegaJ\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CrVQ+sQowatVCAs0Tf1qSpTcC1vTmsCKq097H+x6Z4PkTifbmkaTB6419xrqMjVnaab+GQ/37Q4U5N4LpfdTgQ==",
+  "dgSpecHash": "6J0zHI2UiTT4KOM/ioVwU5URQ2gmooF2dzPKGxkeg88RO1UQ2UjNg6zSI4RMvrOaGyGd94tLOoTl3CLg7VF2YA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MegaJ\\source\\repos\\API Rest Netcon dotnet\\API Rest Netcon dotnet\\API Rest Netcon dotnet.csproj",
+  "projectFilePath": "C:\\Users\\MegaJ\\OneDrive\\Documentos\\GitHub\\Km-To-Light-year-API\\ConversorKmLight\\ConversorKmLight.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MegaJ\\.nuget\\packages\\microsoft.codecoverage\\17.7.2\\microsoft.codecoverage.17.7.2.nupkg.sha512",
     "C:\\Users\\MegaJ\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
