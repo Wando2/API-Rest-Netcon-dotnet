@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\API Rest Netcon dotnet.props" />
-</Project>
