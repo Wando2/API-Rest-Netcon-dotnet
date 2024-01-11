@@ -47,18 +47,4 @@ https://localhost:7119/api/converter?km=0.5
 }
 ```
 
-## Como Compilar e Executar
 
-1. Abra o diretório "API Rest Netcon dotnet".
-
-2. Execute:
-
-```bash
-dotnet run
-```
-
-3. Acesse a URL do Swagger:
-
-```bash
-https://localhost:[porta]/swagger
-```
